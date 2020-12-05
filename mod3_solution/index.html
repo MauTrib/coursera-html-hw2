@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 
@@ -10,7 +11,6 @@
     <link href="static/css/customIndex.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <title>Food, LLC</title>
   </head>
@@ -31,22 +31,59 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav visible-xs">
-        <li><a class="text-center" href="#">Chicken</a></li>
+        <li><a class="text-center" href="#chicken_anchor">Chicken</a></li>
         <hr>
-        <li><a class="text-center" href="#">Beef</a></li>
+        <li><a class="text-center" href="#beef_anchor">Beef</a></li>
         <hr>
-        <li><a class="text-center" href="#">Sushi</a></li>
+        <li><a class="text-center" href="#sushi_anchor">Sushi</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="main_content container">
-  <div class="page_title text-center"><h2>Our Menu</h2></div>
+<div class="main_content container-fluid">
+  <div class="page_title text-center"><h2 id="menu_anchor">Our Menu</h2></div>
   <div class="row">
-    <div class="col-xs-12 plat_content" id="chicken_container">
-      <div><h3 class="text-center">Chicken</h3></div>
-      <div id="chicken_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat fermentum erat in vehicula. Quisque vel neque sit amet lorem efficitur malesuada hendrerit at turpis. Proin porta enim sed hendrerit tristique. Nam tristique neque venenatis enim auctor commodo. Etiam id leo nec velit consequat dictum eget vel erat. Proin purus felis, consectetur et magna sit amet, pharetra lacinia augue. Nam aliquet est sit amet dui faucibus, ut scelerisque ante rutrum. Nunc quis lorem eget dui tincidunt pharetra. Morbi quis viverra felis. Nunc condimentum efficitur augue quis fermentum. Aenean ex leo, luctus vel hendrerit egestas, placerat vitae tellus. Aenean dapibus nunc sed augue rutrum pharetra. </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4" id="chicken_container">
+      <div class="plat_content">
+        <div><h3 class="text-center" id="chicken_anchor">Chicken</h3></div>
+        <div id="chicken_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac lacus fermentum, vehicula ante in, ultricies urna. Sed lectus nulla, euismod ut eros vitae, maximus sollicitudin diam. Maecenas cursus, justo eu hendrerit eleifend, purus tellus laoreet nisi, id posuere magna nunc a dui. In a ante ultricies, vehicula lacus non, lobortis eros. Nam quis sapien ac enim sodales faucibus. Suspendisse vitae aliquet augue, et ullamcorper lorem. Aliquam molestie tortor vitae libero finibus vulputate. Mauris vitae scelerisque purus. Aliquam erat volutpat. Suspendisse pulvinar commodo viverra. Fusce quam elit, fermentum vel velit in, vestibulum convallis nisi. Mauris mollis fermentum nulla finibus laoreet. Suspendisse pulvinar erat eu convallis elementum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar imperdiet rhoncus. In facilisis arcu ac hendrerit gravida. Fusce dignissim eget ante at auctor. Praesent a arcu ornare, aliquet augue vitae, commodo dui. Donec neque risus, luctus vitae faucibus id, egestas malesuada lacus. Praesent scelerisque aliquet varius. Sed pellentesque feugiat ipsum ac interdum.
+
+        Donec in accumsan urna. Nullam ut feugiat orci, eget ullamcorper dui. Nullam semper, tortor malesuada pharetra lacinia, orci elit imperdiet felis, in condimentum purus velit quis nulla. Duis maximus, velit et scelerisque tempus, magna neque consequat mauris, vitae scelerisque nisl est et turpis. Praesent eleifend, metus congue euismod finibus, elit purus rutrum nulla, nec dictum sapien diam dapibus nunc. Morbi lacinia sed neque pretium pellentesque. Morbi semper dui at nisl imperdiet, a consectetur diam iaculis. Duis et mi aliquam, scelerisque risus ac, rutrum enim. Nam dignissim auctor luctus. Integer varius lectus sit amet consequat aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ex massa, scelerisque eu mauris non, pharetra tincidunt dui. Phasellus ipsum metus, efficitur malesuada sapien auctor, mattis elementum felis.
+
+        Vestibulum faucibus, augue vel sodales scelerisque, diam sapien vestibulum quam, vitae porta diam ex cursus justo. Vivamus elementum condimentum enim eget finibus. Quisque elementum libero lacus, nec hendrerit urna rutrum eget. Mauris porttitor ac orci ac dapibus. Pellentesque posuere faucibus nibh, et laoreet ligula. Etiam vulputate id metus non interdum. Integer scelerisque felis eget felis blandit ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eu varius nunc, vitae vestibulum nunc. Aenean congue turpis orci, non consequat felis aliquet sit amet. Fusce nec mollis velit, sed vestibulum ante. Morbi augue enim, laoreet et nisi vitae, feugiat posuere ipsum. Donec vitae porttitor nisl. Fusce volutpat elit a varius congue.
+        </div>
+        <div><a href="#menu_anchor">Back to Top</a></div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4" id="beef_container">
+      <div class="plat_content">
+        <div><h3 class="text-center" id="beef_anchor">Beef</h3></div> 
+        <div id="beef_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac lacus fermentum, vehicula ante in, ultricies urna. Sed lectus nulla, euismod ut eros vitae, maximus sollicitudin diam. Maecenas cursus, justo eu hendrerit eleifend, purus tellus laoreet nisi, id posuere magna nunc a dui. In a ante ultricies, vehicula lacus non, lobortis eros. Nam quis sapien ac enim sodales faucibus. Suspendisse vitae aliquet augue, et ullamcorper lorem. Aliquam molestie tortor vitae libero finibus vulputate. Mauris vitae scelerisque purus. Aliquam erat volutpat. Suspendisse pulvinar commodo viverra. Fusce quam elit, fermentum vel velit in, vestibulum convallis nisi. Mauris mollis fermentum nulla finibus laoreet. Suspendisse pulvinar erat eu convallis elementum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar imperdiet rhoncus. In facilisis arcu ac hendrerit gravida. Fusce dignissim eget ante at auctor. Praesent a arcu ornare, aliquet augue vitae, commodo dui. Donec neque risus, luctus vitae faucibus id, egestas malesuada lacus. Praesent scelerisque aliquet varius. Sed pellentesque feugiat ipsum ac interdum.
+
+        Donec in accumsan urna. Nullam ut feugiat orci, eget ullamcorper dui. Nullam semper, tortor malesuada pharetra lacinia, orci elit imperdiet felis, in condimentum purus velit quis nulla. Duis maximus, velit et scelerisque tempus, magna neque consequat mauris, vitae scelerisque nisl est et turpis. Praesent eleifend, metus congue euismod finibus, elit purus rutrum nulla, nec dictum sapien diam dapibus nunc. Morbi lacinia sed neque pretium pellentesque. Morbi semper dui at nisl imperdiet, a consectetur diam iaculis. Duis et mi aliquam, scelerisque risus ac, rutrum enim. Nam dignissim auctor luctus. Integer varius lectus sit amet consequat aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ex massa, scelerisque eu mauris non, pharetra tincidunt dui. Phasellus ipsum metus, efficitur malesuada sapien auctor, mattis elementum felis.
+
+        Vestibulum faucibus, augue vel sodales scelerisque, diam sapien vestibulum quam, vitae porta diam ex cursus justo. Vivamus elementum condimentum enim eget finibus. Quisque elementum libero lacus, nec hendrerit urna rutrum eget. Mauris porttitor ac orci ac dapibus. Pellentesque posuere faucibus nibh, et laoreet ligula. Etiam vulputate id metus non interdum. Integer scelerisque felis eget felis blandit ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eu varius nunc, vitae vestibulum nunc. Aenean congue turpis orci, non consequat felis aliquet sit amet. Fusce nec mollis velit, sed vestibulum ante. Morbi augue enim, laoreet et nisi vitae, feugiat posuere ipsum. Donec vitae porttitor nisl. Fusce volutpat elit a varius congue.</div>
+        <div><a href="#menu_anchor">Back to Top</a></div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4" id="sushi_container">
+      <div class="plat_content">
+        <div><h3 class="text-center" id="sushi_anchor">Sushi</h3></div>
+        <div id="sushi_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac lacus fermentum, vehicula ante in, ultricies urna. Sed lectus nulla, euismod ut eros vitae, maximus sollicitudin diam. Maecenas cursus, justo eu hendrerit eleifend, purus tellus laoreet nisi, id posuere magna nunc a dui. In a ante ultricies, vehicula lacus non, lobortis eros. Nam quis sapien ac enim sodales faucibus. Suspendisse vitae aliquet augue, et ullamcorper lorem. Aliquam molestie tortor vitae libero finibus vulputate. Mauris vitae scelerisque purus. Aliquam erat volutpat. Suspendisse pulvinar commodo viverra. Fusce quam elit, fermentum vel velit in, vestibulum convallis nisi. Mauris mollis fermentum nulla finibus laoreet. Suspendisse pulvinar erat eu convallis elementum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar imperdiet rhoncus. In facilisis arcu ac hendrerit gravida. Fusce dignissim eget ante at auctor. Praesent a arcu ornare, aliquet augue vitae, commodo dui. Donec neque risus, luctus vitae faucibus id, egestas malesuada lacus. Praesent scelerisque aliquet varius. Sed pellentesque feugiat ipsum ac interdum.
+
+        Donec in accumsan urna. Nullam ut feugiat orci, eget ullamcorper dui. Nullam semper, tortor malesuada pharetra lacinia, orci elit imperdiet felis, in condimentum purus velit quis nulla. Duis maximus, velit et scelerisque tempus, magna neque consequat mauris, vitae scelerisque nisl est et turpis. Praesent eleifend, metus congue euismod finibus, elit purus rutrum nulla, nec dictum sapien diam dapibus nunc. Morbi lacinia sed neque pretium pellentesque. Morbi semper dui at nisl imperdiet, a consectetur diam iaculis. Duis et mi aliquam, scelerisque risus ac, rutrum enim. Nam dignissim auctor luctus. Integer varius lectus sit amet consequat aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ex massa, scelerisque eu mauris non, pharetra tincidunt dui. Phasellus ipsum metus, efficitur malesuada sapien auctor, mattis elementum felis.
+
+        Vestibulum faucibus, augue vel sodales scelerisque, diam sapien vestibulum quam, vitae porta diam ex cursus justo. Vivamus elementum condimentum enim eget finibus. Quisque elementum libero lacus, nec hendrerit urna rutrum eget. Mauris porttitor ac orci ac dapibus. Pellentesque posuere faucibus nibh, et laoreet ligula. Etiam vulputate id metus non interdum. Integer scelerisque felis eget felis blandit ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eu varius nunc, vitae vestibulum nunc. Aenean congue turpis orci, non consequat felis aliquet sit amet. Fusce nec mollis velit, sed vestibulum ante. Morbi augue enim, laoreet et nisi vitae, feugiat posuere ipsum. Donec vitae porttitor nisl. Fusce volutpat elit a varius congue.</div>
+        <div><a href="#menu_anchor">Back to Top</a></div>
+      </div>
     </div>
 
   </div>
@@ -54,14 +91,14 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>-->
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
+    
   </body>
 </html>

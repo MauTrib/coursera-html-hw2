@@ -47,9 +47,10 @@ body {
 }
 
 .plat_content{
-  height: 1000px;
   border: 2px solid grey;
   background-color: #e69a9a;
+  padding: 0 10px 0 10px;
+  margin-bottom: 20px;
 }
 
 /********** Large devices only **********/
